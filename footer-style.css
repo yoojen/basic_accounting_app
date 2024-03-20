@@ -1,0 +1,37 @@
+footer{
+    background-color: rgb(4, 126, 160);
+    color: #fff;
+    text-align: center;
+    height: 40vh;
+}
+
+footer p{
+    padding-top: 20px;
+    font-family: trebuchet MS;
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+}
+.quick-links ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+}
+
+.quick-links ul li{
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.quick-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+footer small{
+    padding-top: 20px;
+    font-family: trebuchet MS;
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+}

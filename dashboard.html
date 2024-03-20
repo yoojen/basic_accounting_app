@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header-style.css">
+    <link rel="stylesheet" href="transaction-style.css">
+    <link rel="stylesheet" href="footer-style.css">
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css" />
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="menu-bar">
+            <li class="active">
+                <a href="dashboard.html"><i class="fas fa-home"></i>Home</a>
+            </li>
+            <li>
+                <i class="fas fa-calculator"></i>My Accounting <i class="fas fa-chevron-down"></i>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="journal.php">Make Journal Entries</a></li>
+                        <li><a href="">Reports</a>
+                            <i class="fas fa-chevron-right"></i>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="balancesheet.php">Balance Sheet</a></li>
+                                    <li><a href="trial_balance.php">Trial Balance</a></li>
+                                    <li><a href="ledger.php">Ledger</a></li>
+                                    <li><a href="profit_account.php">Profit & Loss</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </li>
+        </ul>
+    </nav>
+
+    <section class="transactions">
+        <div class="desc">
+            <h1>Easy way to make</h1>
+            <h3>your work fast</h3>
+        </div>
+
+        <form action="journal.php">
+            <div class="make-transaction">
+                <button>Make transaction</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="quick-links">
+            <p>Save your time, work with us to simplify!</p>
+            <ul>
+                <li><a href="#"> reach us</a></li>
+                <li><a href="#"> about us </a></li>
+                <li><a href="#"> manage account </a></li>
+            </ul>
+            <small>&copy; winning group 2023</small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/js/all.min.js"></script>
+</body>
+
+</html>

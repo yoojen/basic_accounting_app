@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: radial-gradient(#eeee, #7d99acdd);
+}
+.nav-bar{
+    text-transform: uppercase;
+    background-color: rgb(15, 107, 77);
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar ul li{
+    cursor: pointer;
+    padding: 15px 20px;
+    transition: .5s ease-in-out;
+}
+
+.nav-bar ul li a{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: trebuchet Ms;
+    text-decoration: none;
+}
+
+.nav-bar ul li:hover{
+    background-color: black;
+}

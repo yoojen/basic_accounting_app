@@ -1,0 +1,86 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu-bar {
+    text-align: center;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    font-family: trebuchet Ms;
+}
+
+.menu-bar li {
+    color: white;
+}
+
+.menu-bar li {
+    width: 200px;
+    padding: 15px;
+    background: #09929f;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar li:hover {
+    background: #099f36;
+    cursor: pointer;
+}
+
+.sub-menu {
+    z-index: 999;
+    margin-top: 15px;
+    position: absolute;
+    width: 185px;
+    height: 100px;
+    display: none;
+}
+
+.sub-menu ul li {
+    list-style: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sub-menu ul li:hover {
+    background-color: rgb(113, 58, 3);
+}
+
+.menu-bar li:hover .sub-menu {
+    cursor: pointer;
+    display: block;
+}
+
+#back-btn {
+    margin-left: 50px;
+}
+
+.sub-menu-2 {
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    left: 185px;
+}
+
+.menu-bar .sub-menu li:hover .sub-menu-2 {
+    cursor: pointer;
+    display: block;
+}
+
+.svg-inline--fa {
+    margin-right: 10px;
+}
+
+.sub-menu ul li:hover {
+    background-color: rgb(3, 38, 113);
+}
+
+.sub-menu ul li:hover a {
+    color: white;
+}

@@ -1,0 +1,41 @@
+.transactions{
+    width: 800px;
+    height: 70vh;
+    /* background-color: #eacaab; */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.transactions .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.transactions .desc h3{
+    color: rgb(163, 27, 184);
+}
+
+.make-transaction button{
+    background-color: orangered;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+    transition: .3s ease-in-out;
+    margin-top: 40px;
+}
+
+.make-transaction button:hover{
+    padding: 7px 10px;
+}
